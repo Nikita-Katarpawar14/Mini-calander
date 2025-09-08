@@ -13,6 +13,7 @@ body{
     text-align: center;
     border-radius:10px ;
     box-shadow: 9px 8px rgb(108, 127, 157);
+    padding:5px;
 
 }
 .month-name{
@@ -22,6 +23,7 @@ body{
     padding: 10px;
     font-size: 30px;
     font-weight: bold;
+    text-shadow: rgb(18, 17, 18) 5px 8px 10px;
 }
 .day-name{
     font-size: 20px;
@@ -32,6 +34,7 @@ body{
     font-size: 80px;
     margin: 0;
     font-weight: bold;
+    text-shadow: rgb(18, 17, 18) 0.5px 0.3px 1px;
 }
 
 .year{
@@ -39,4 +42,56 @@ body{
     font-size: 20px;
     color: rgb(8, 8, 8);
     font-weight: bold;
+}
+.dark-mode {
+    background: #222;
+    color: #0a0a0a;
+}
+
+.dark-mode .buttons {
+    background: #555;
+    color: #0b0b0b;
+}
+
+.dark-mode .buttons:hover {
+    background: #5faeeb;
+    color: #555;
+
+
+}
+.buttons:hover{
+  
+    box-shadow: 0 10px 20px rgb(45, 25, 112);
+    border:2px solid #ffb6c1;
+    background-color: #fdf0f5;
+    color: peru;
+    font-size: 0.7rem;
+}
+
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+.buttons{
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(131, 189, 189);
+    border-radius: 10px;
+    border-color: bisque;
+    font-weight: bold;
+
+}
+.darkMode{
+    margin-left: 10px;
+    margin-top: 300px;
+
+    padding-left: 10px;
+    padding-right: 15px;
 }
